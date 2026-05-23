@@ -44,7 +44,7 @@
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/devpulse.git
+git clone https://github.com/TutulMajumder/devpulse.git
 cd devpulse
 ```
 
@@ -57,8 +57,8 @@ npm install
 
 Create a `.env` file in the root directory:
 ```env
+PORT=server port
 CONNECTION_STRING=your_postgresql_connection_string
-PORT=8000
 JWT_SECRET=your_jwt_secret_key
 ```
 
@@ -66,8 +66,6 @@ JWT_SECRET=your_jwt_secret_key
 ```bash
 npm run dev
 ```
-
-Server starts at `http://localhost:8000`
 
 > Tables are created automatically on first run via `initDB()`.
 
